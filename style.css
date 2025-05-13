@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://static5.depositphotos.com/1004348/480/i/450/depositphotos_4806341-stock-photo-colorful-stars-in-the-night.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 80px;
+            height: 80px;
+        }
+        ul{
+            display: flex;
+            gap: 20px;
+            padding: 15px 25px;
+            li{
+                a{
+                    color: #67ff74;
+                    font-size: 25px;
+                }
+            }
+        }
+        
+    }
+}
+main{
+    min-height: 100vh;
+    .home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        .titulos{
+            background-color: white;
+            opacity: 0.15;
+            h1{
+                color: rgb(255, 0, 0);
+                font-size: 50px;
+            }
+            h2{
+                color: rgb(255, 0, 0);
+                font-size: 25px;
+            }
+        }
+    }
+}
